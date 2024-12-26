@@ -1,10 +1,13 @@
 # Position Recommendations for Footballers Using Python and Scikit-learn
 
+
 **[My Project Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Selection%20Test.ipynb)**
+
 
 ## Objective
 
 This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model selects and ranks the best positions for a player, assisting in optimal team selection and player development.
+
 
 ## Dataset
 
@@ -13,6 +16,7 @@ The project uses two datasets for model training and testing:
 1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **[Stefano Leone](https://www.kaggle.com/stefanoleone992)**: Used for **training** the model.
 
 2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **[Davis Nyagami](https://www.kaggle.com/nyagami)**:Used for **testing** the model.
+
 
 ## Key Steps in the Project
 
@@ -31,6 +35,7 @@ The project uses two datasets for model training and testing:
 4. **Result Presentation**:
    - Visualizing position recommendations with charts and graphs for easy interpretation.
    - Highlighting strengths and weaknesses to inform decisions effectively.
+
 
 ## Future Enhancements
 
