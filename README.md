@@ -13,9 +13,9 @@ This project aims to help football players and coaches select the most suitable 
 
 The project uses two datasets for model training and testing:
 
-1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **[Stefano Leone](https://www.kaggle.com/stefanoleone992)**: Used for **training** the model.
+1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **[Stefano Leone](https://www.kaggle.com/stefanoleone992)**: Used for **Training** the model.
 
-2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **[Davis Nyagami](https://www.kaggle.com/nyagami)**:Used for **testing** the model.
+2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **[Davis Nyagami](https://www.kaggle.com/nyagami)**:Used for **Testing** the model.
 
 
 ## Key Steps in the Project
