@@ -20,21 +20,28 @@ The project uses two datasets for model training and testing:
 
 ## Key Steps in the Project
 
-1. **Data Preprocessing**:
-   - Addressing missing values and outliers to maintain data integrity.
-   - Normalizing attributes to ensure uniform scaling for analysis.
+1. **Data Cleaning and Feature Extraction**:
+   - 
+   - 
 
-2. **Feature Engineering**:
-   - Calculating derived metrics like BMI (Body Mass Index) to enhance physical evaluations.
-   - Aggregating skills into key metrics (e.g., offensive, defensive, and physical averages) for concise insights.
+2. **Selecting and Training Machine Learning Model**:
+   - 
+   - 
 
-3. **Model Training and Evaluation**:
-   - Training a Random Forest Classifier to predict the most suitable positions for players.
-   - Refining the model through cross-validation and hyperparameter tuning for better accuracy.
+3. **Evaluating Machine Learning Model**:
+   - 
+   - 
 
-4. **Result Presentation**:
-   - Visualizing position recommendations with charts and graphs for easy interpretation.
-   - Highlighting strengths and weaknesses to inform decisions effectively.
+4. **Using Machine Learning Model for Position Recommendations Based on Player's Input Data**:
+   - 
+   - 
+
+5. **Output Visualization**:
+   - 
+
+6. **Building a Web Interface with Streamlit**:
+   - 
+   - 
 
 ## Visual Examples
 add Image Here
