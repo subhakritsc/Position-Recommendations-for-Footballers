@@ -28,8 +28,8 @@ The project uses two datasets for model training and testing:
 
 2. **Selecting and Training Machine Learning Model**:
     - **Model Selection**: Chose **Random Forest** for multilabel classification, as it handles multiple outputs, reduces overfitting, provides feature importance insights, and is scalable with large datasets.
-    - **Data Splitting**: Split data into training (80%) and testing (20%) sets.
-    - **Model Training**: Trained a Random Forest classifier with 100 estimators, using `MultiOutputClassifier` to handle multilabel classification.
+    - **Data Splitting**: Split data into training (80%) and testing (20%) sets using `train_test_split`.
+    - **Model Training**: Trained a `RandomForestClassifier` with 100 estimators, using `MultiOutputClassifier` to handle multilabel classification.
 Feature Importance Extraction: Averaged feature importances from all trees to identify key features influencing position predictions.
 
 3. **Evaluating Machine Learning Model**:
