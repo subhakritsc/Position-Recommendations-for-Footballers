@@ -6,6 +6,14 @@
 
 This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model selects and ranks the best positions for a player, assisting in optimal team selection and player development.
 
+## Dataset
+
+The project uses two datasets for model training and testing:
+
+1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **[Stefano Leone](https://www.kaggle.com/stefanoleone992)**: Used for **training** the model.
+
+2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **[Davis Nyagami](https://www.kaggle.com/nyagami)**:Used for **testing** the model.
+
 ## Key Steps in the Project
 
 1. **Data Preprocessing**:
@@ -31,16 +39,6 @@ This project aims to help football players and coaches select the most suitable 
 - **Team Analysis**: Expand features to optimize team formations and tactical strategies.
 - **Interactive Customization**: Enable real-time adjustment of attribute weights during analysis.
 
-## Dataset
-
-The project uses two datasets for model training and testing:
-
-1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **[Stefano Leone](https://www.kaggle.com/stefanoleone992)**: Used for **training** the model.
-
-2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **[Davis Nyagami](https://www.kaggle.com/nyagami)**:Used for **testing** the model.
-
-Additionally, the project utilizes the following resource for the input format:
-**[Input Format from EA Sports FC](https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747)**: Provides the structure and categories for player ratings and stats.
 
 ## Acknowledgments
 
