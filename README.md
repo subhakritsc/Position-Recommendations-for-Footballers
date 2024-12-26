@@ -1,3 +1,7 @@
+h1, h2 {
+    border-bottom: none;
+}
+
 # Position Recommendations for Footballers Using Python and Scikit-learn
 
 ## Objective
