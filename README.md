@@ -36,6 +36,8 @@ The project uses two datasets for model training and testing:
    - Visualizing position recommendations with charts and graphs for easy interpretation.
    - Highlighting strengths and weaknesses to inform decisions effectively.
 
+## Visual Examples
+add Image Here
 
 ## Future Enhancements
 
