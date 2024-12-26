@@ -33,16 +33,12 @@ This project aims to help football players and coaches select the most suitable 
 
 The project uses two datasets for model training and testing:
 
-1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **Stefano Leone**:
-   - Used for **training** the model.
+1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by **Stefano Leone**: Used for **training** the model.
 
-2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **Davis Nyagami**:
-   - Used for **testing** the model.
+2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by **Davis Nyagami**:Used for **testing** the model.
 
 Additionally, the project utilizes the following resource for the input format:
-
-- **[Input Format from EA Sports FC](https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747)**: 
-  - Provides the structure and categories for player ratings and stats.
+**[Input Format from EA Sports FC](https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747)**: Provides the structure and categories for player ratings and stats.
 
 ## Acknowledgments
 
