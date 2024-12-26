@@ -1,8 +1,6 @@
-h1, h2 {
-    border-bottom: none;
-}
-
 # Position Recommendations for Footballers Using Python and Scikit-learn
+
+[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Selection%20Test.ipynb)
 
 ## Objective
 
