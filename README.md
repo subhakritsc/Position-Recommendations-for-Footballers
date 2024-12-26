@@ -21,10 +21,10 @@ The project uses two datasets for model training and testing:
 ## Key Steps in the Project
 
 1. **Data Cleaning and Feature Extraction**:
-    - Data Filtering: Excluded goalkeepers and selected FIFA versions 22-24.
-    - Position Encoding: Converted player positions into binary vectors.
-    - Feature Engineering: Calculated BMI, normalized skills, and created category averages (offensive, defensive, physical, etc.).
-    - Additional Features: Added attacking/defensive contributions and ratio.
+    - **Data Filtering**: Excluded goalkeepers and selected FIFA versions 22-24.
+    - **Position Encoding**: Converted player positions into binary vectors.
+    - **Feature Engineering**: Calculated BMI, normalized skills, and created category averages (offensive, defensive, physical, etc.).
+    - **Additional Features**: Added attacking/defensive contributions and ratio.
 
 2. **Selecting and Training Machine Learning Model**:
 
