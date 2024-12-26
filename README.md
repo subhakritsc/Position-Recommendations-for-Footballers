@@ -21,27 +21,21 @@ The project uses two datasets for model training and testing:
 ## Key Steps in the Project
 
 1. **Data Cleaning and Feature Extraction**:
-   - 
-   - 
+    
 
 2. **Selecting and Training Machine Learning Model**:
-   - 
-   - 
+
 
 3. **Evaluating Machine Learning Model**:
-   - 
-   - 
+
 
 4. **Using Machine Learning Model for Position Recommendations Based on Player's Input Data**:
-   - 
-   - 
 
 5. **Output Visualization**:
-   - 
+   
 
 6. **Building a Web Interface with Streamlit**:
-   - 
-   - 
+
 
 ## Visual Examples
 add Image Here
