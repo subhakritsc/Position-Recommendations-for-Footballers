@@ -29,7 +29,7 @@ This project aims to help football players and coaches select the most suitable 
 - **Team Analysis**: Expand features to optimize team formations and tactical strategies.
 - **Interactive Customization**: Enable real-time adjustment of attribute weights during analysis.
 
-# Dataset
+## Dataset
 
 The project uses two datasets for model training and testing:
 
@@ -44,7 +44,7 @@ Additionally, the project utilizes the following resource for the input format:
 - **[Input Format from EA Sports FC](https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kylian-mbappe/231747)**: 
   - Provides the structure and categories for player ratings and stats.
 
-# Acknowledgments
+## Acknowledgments
 
 - **[Stefano Leone](https://www.kaggle.com/stefanoleone992)** for the EA Sports FC 24 dataset (used for training).
 - **[Davis Nyagami](https://www.kaggle.com/nyagami)** for the EA Sports FC 25 dataset (used for testing).
