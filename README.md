@@ -22,8 +22,7 @@ This project aims to help football players and coaches select the most suitable 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/football-position-recommendations.git
-   cd football-position-recommendations
+   git clone https://github.com/subhakritsc/Position-Recommendations-for-Footballers.git
 
 ## Dataset
 
