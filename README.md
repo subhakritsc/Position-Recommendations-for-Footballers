@@ -24,8 +24,9 @@ This project aims to help football players and coaches select the most suitable 
 
 ## Steps to Run the Streamlit App
 
-1. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
-2. **Modify `app.py`**: Update the path to the model file in app.py
+1. **Download `app.py`**
+2. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
+3. **Modify `app.py`**: Update the path to the model file in `app.py`
 
    ```
       clf_forest = joblib.load('YOUR PATH OF THE MODEL')
@@ -37,7 +38,7 @@ This project aims to help football players and coaches select the most suitable 
      pip install pandas numpy scikit-learn matplotlib streamlit joblib
    ```
    
-5. **Run the Application on Terminal**
+5. **Run the Application on Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
 
    ```
      streamlit run app.py
