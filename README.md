@@ -17,7 +17,7 @@ This project aims to help football players and coaches select the most suitable 
 
 ## File Lists
 
-- **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
+- **[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
 - **[Streamlit App](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
 
 ## Steps to Run the Streamlit App
