@@ -44,7 +44,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
    - **Filtering Unfound Positions**: Identified positions not found in the training dataset by counting occurrences of each position from `pos_list`.
 Excluded positions that had zero occurrences from the visual representation, ensuring only relevant positions are visualized.
     - **Visualizing Position Recommendations**:
-          - Pitch Setup: Used `matplotlib` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
+    - Pitch Setup: Used `matplotlib` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
           - Position Plotting:
               - Defined player positions using a set of predefined coordinates on the pitch.
               - Defined a function to interpolate custom colors based on position suitability, where positions with higher suitability are given greener shades, while lower suitability                 is represented with warmer colors like red and orange.
