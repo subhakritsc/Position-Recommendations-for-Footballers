@@ -17,11 +17,12 @@ This project aims to help football players and coaches select the most suitable 
 
 ## File Lists
 
-1. **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
-2. **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+- **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
+- **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
 
-To run app.py
-- [Load the model](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)
+## Steps to Run the Streamlit App
+1. **Download the Pre-trained Model**
+**[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
 - Modify app.py
      ```
         clf_forest = joblib.load('YOUR PATH OF THE MODEL')
