@@ -70,7 +70,6 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
 
 - **Simplified Input Options**: Add a fast entry option for casual users to make the process quicker and easier.
 - **Deep Learning Integration**: Implement advanced models to provide more accurate and detailed predictions.
-- **Team Analysis**: Expand features to optimize team formations and tactical strategies.
 
 
 ## Acknowledgments
