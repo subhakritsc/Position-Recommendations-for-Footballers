@@ -33,7 +33,7 @@ The project uses two datasets for model training and testing:
 Feature Importance Extraction: Averaged feature importances from all trees to identify key features influencing position predictions.
 
 3. **Evaluating the Machine Learning Model**:
-    - **Creating Function to Recommend Player Positions**: Defined a function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable probabilities for each position based on player features, sorts the positions by their suitability, and returns a list of positions along with their corresponding probabilities.
+    - **Creating Function to Recommend Player Positions**: Defined a function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable probabilities for each position based on player features, sorts the positions by their suitability, and returns a ranked list of positions along with their corresponding probabilities.
     - **Model Accuracy Evaluation**: Evaluated the model's performance by comparing the top recommended position with the player’s actual positions. A recommendation was considered correct if the top recommended position matched any of the player’s actual positions. The accuracy was calculated as the ratio of correct recommendations to the total number of recommendations in a subset of test data.
       
 4. **Using the Machine Learning Model for Position Recommendations Based on Player's Input Data**:
