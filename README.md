@@ -45,8 +45,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
    - **Pitch Setup**: Used `matplotlib.patches` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
    - **Position Plotting**: Defined player positions and their coordinates on the pitch, representing typical player placements on the field.
    - **Color Coding for Position Suitability**: Used a custom algorithm to assign colors based on position suitability to create a meaningful visualization. Positions with higher suitability are assigned greener shades, while lower suitability is represented with warmer colors like red and orange, ensuring that the color scheme reflects the suitability of positions effectively.
-   - **Rankings and Labels**: Displayed a ranked list of positions next to the pitch, showing suitability probabilities in percentages for the top recommended positions.
-Each position’s ranking was displayed directly on the pitch, highlighting their suitability based on the model’s output.
+   - **Rankings and Labels**: Displayed a ranked list of top recommended positions with suitability probabilities as percentages next to the pitch, with rankings also shown directly on the pitch.
 
 6. **Building a Web Interface with Streamlit**:
 
