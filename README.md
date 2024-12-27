@@ -16,7 +16,7 @@ This project aims to help football players and coaches select the most suitable 
 - **[Streamlit](https://streamlit.io/)**
 
 
-## Dataset
+## Datasets
 
 The project uses two datasets for model training and testing:
 
