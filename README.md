@@ -16,6 +16,15 @@ This project aims to help football players and coaches select the most suitable 
 - **[Streamlit](https://streamlit.io/)**
 
 
+## Dataset
+
+The project uses two datasets for model training and testing:
+
+1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by [Stefano Leone](https://www.kaggle.com/stefanoleone992): Used for **Training** the model.
+
+2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by [Davis Nyagami](https://www.kaggle.com/nyagami): Used for **Testing** the model and visualization.
+
+
 ## File Lists
 
 - **[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
@@ -42,15 +51,6 @@ This project aims to help football players and coaches select the most suitable 
    ```
      streamlit run app.py
    ```
-
-
-## Dataset
-
-The project uses two datasets for model training and testing:
-
-1. **[EA Sports FC 24 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset)** by [Stefano Leone](https://www.kaggle.com/stefanoleone992): Used for **Training** the model.
-
-2. **[EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats)** by [Davis Nyagami](https://www.kaggle.com/nyagami): Used for **Testing** the model and visualization.
 
 
 ## Key Steps in the project
