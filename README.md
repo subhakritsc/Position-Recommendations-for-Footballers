@@ -18,20 +18,19 @@ This project aims to help football players and coaches select the most suitable 
 ## File Lists
 
 - **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
-- **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+- **[Streamlit App](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
 
 ## Steps to Run the Streamlit App
-1. **Download the Pre-trained Model**
-**[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
-- Modify app.py
+1. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
+2. **Modify app.py**: Update the path to the model file in app.py
      ```
         clf_forest = joblib.load('YOUR PATH OF THE MODEL')
      ```
-- Run this on the terminal
+3. **Install all required libraries**
      ```bash
         pip install pandas numpy scikit-learn matplotlib streamlit joblib
         streamlit run app.py
-      
+     ```
      
 
 ## Dataset
