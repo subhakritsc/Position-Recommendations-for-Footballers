@@ -24,21 +24,20 @@ This project aims to help football players and coaches select the most suitable 
 
 ## Steps to Run the Streamlit App
 
-1. **Download `app.py`**
-2. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
-3. **Modify `app.py`**: Update the path to the model file in `app.py`
+1. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
+2. **Download and Modify `app.py`**: Update the path to the model file in `app.py`
 
    ```
       clf_forest = joblib.load('YOUR PATH OF THE MODEL')
    ```
    
-4. **Install All Required Libraries on Terminal**
+3. **Install All Required Libraries on Terminal**
 
    ```
      pip install pandas numpy scikit-learn matplotlib streamlit joblib
    ```
    
-5. **Run the Application on Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
+4. **Run the Application on Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
 
    ```
      streamlit run app.py
@@ -70,6 +69,7 @@ The project uses two datasets for model training and testing:
 3. **Evaluating the Machine Learning Model**:
     - **Creating Function to Calculate Suitable Percentage for Each Position of a Player**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate the suitable percentage for each position based on player features, sorts the positions by their suitability, and returns a sorted list of positions along with their corresponding percentage.
     - **Model Accuracy Evaluation**: Evaluated the model's performance by comparing the top recommended position with the player’s actual positions. A recommendation was considered correct if the top recommended position matched any of the player’s actual positions. The accuracy was calculated as the ratio of correct recommendations to the total number of recommendations in a subset of test data.
+
       ```
         Accuracy (Top recommended position in actual positions, subset of 200): 0.925
       ```
