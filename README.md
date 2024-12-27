@@ -40,7 +40,7 @@ The project uses two datasets for model training and testing:
 Feature Importance Extraction: Averaged feature importances from all trees to identify key features influencing position predictions.
 
 3. **Evaluating the Machine Learning Model**:
-    - **Creating Function to Recommend Player Positions**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable probabilities for each position based on player features, sorts the positions by their suitability, and returns a ranked list of positions along with their corresponding probabilities.
+    - **Creating Function to Recommend Player Positions**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable percentages for each position based on player features, sorts the positions by their suitability, and returns a ranked list of positions along with their corresponding percentages.
     - **Model Accuracy Evaluation**: Evaluated the model's performance by comparing the top recommended position with the player’s actual positions. A recommendation was considered correct if the top recommended position matched any of the player’s actual positions. The accuracy was calculated as the ratio of correct recommendations to the total number of recommendations in a subset of test data.
       ```
         Accuracy (Top recommended position in actual positions, subset of 200): 0.925
@@ -55,8 +55,9 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
    - **Pitch Setup**: Used `matplotlib.patches` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
    - **Position Plotting**: Defined player positions and their coordinates on the pitch, representing typical player placements on the field.
    - **Color Coding for Position Suitability**: Used a custom algorithm to assign colors based on position suitability to create a meaningful visualization. Positions with higher suitability are assigned greener shades, while lower suitability is represented with warmer colors like red and orange, ensuring that the color scheme reflects the suitability of positions effectively.
-   - **Rankings and Labels**: Displayed a ranked list of top recommended positions with suitability probabilities as percentages next to the pitch, with rankings also shown directly on the pitch.
-     ![Alt Text](./Output Visualization Example.png)
+   - **Rankings and Labels**: Displayed a ranked list of top recommended positions with suitable percentages next to the pitch, with rankings also shown directly on the pitch.
+     
+     ![Alt Text](./Output_Visualization_Example.png)
 
 6. **Building a Web Interface with Streamlit**:
    - **Creating Function to Collect and Transform Player Data from Web Input**: Defined a `get_player_input_streamlit()` function to collect player input from the web interface using Streamlit widgets (e.g., sliders, number inputs). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
@@ -68,7 +69,6 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
 - **Simplified Input Options**: Add a fast entry option for casual users to make the process quicker and easier.
 - **Deep Learning Integration**: Implement advanced models to provide more accurate and detailed predictions.
 - **Team Analysis**: Expand features to optimize team formations and tactical strategies.
-- **Interactive Customization**: Enable real-time adjustment of attribute weights during analysis.
 
 
 ## Acknowledgments
