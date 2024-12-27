@@ -37,7 +37,6 @@ The project uses two datasets for model training and testing:
     - **Model Selection**: Chose **Random Forest** for multilabel classification, as it handles multiple outputs, reduces overfitting, and provides feature importance insights.
     - **Data Splitting**: Split data into training (80%) and testing (20%) sets using `train_test_split`.
     - **Model Training**: Trained a `RandomForestClassifier` with 100 estimators, using `MultiOutputClassifier` to handle multilabel classification.
-Feature Importance Extraction: Averaged feature importances from all trees to identify key features influencing position predictions.
 
 3. **Evaluating the Machine Learning Model**:
     - **Creating Function to Recommend Player Positions**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable percentages for each position based on player features, sorts the positions by their suitability, and returns a ranked list of positions along with their corresponding percentages.
@@ -69,7 +68,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
 ## Future Enhancements
 
 - **Simplified Input Options**: Add a fast entry option for casual users to make the process quicker and easier.
-- **Deep Learning Integration**: Implement advanced models to provide more accurate and detailed predictions.
+- **Deep Learning Integration**: Implement advanced models to provide more accurate and detailed recommendations.
 
 
 ## Acknowledgments
