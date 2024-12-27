@@ -4,6 +4,11 @@
 **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
 
 
+## Objective
+
+This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model selects and ranks the best positions for a player, assisting in optimal team selection and player development.
+
+
 ## Python Libraries Used
 
 - Pandas
@@ -13,10 +18,12 @@
 - Matplotlib
 - Streamlit
 
-## Objective
+## Installation
 
-This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model selects and ranks the best positions for a player, assisting in optimal team selection and player development.
-
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/football-position-recommendations.git
+   cd football-position-recommendations
 
 ## Dataset
 
