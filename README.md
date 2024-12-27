@@ -1,4 +1,4 @@
-# Position Recommendations for Footballers Using Python and Scikit-Learn
+# Position Recommendations for Footballers Using Python and Scikit-learn
 
 
 **[My Project Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Selection%20Test.ipynb)**
