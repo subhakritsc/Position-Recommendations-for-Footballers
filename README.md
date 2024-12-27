@@ -33,7 +33,7 @@ The project uses two datasets for model training and testing:
 
 ## Steps to Run the Streamlit App
 
-1. **Download the Pre-trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
+1. **Download My Trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
 2. **Download and Modify** **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**: Update the path to the model file in `app.py`
 
    ```
