@@ -44,7 +44,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
     - **Model Accuracy Evaluation**: Evaluated the model's performance by comparing the top recommended position with the player’s actual positions. A recommendation was considered correct if the top recommended position matched any of the player’s actual positions. The accuracy was calculated as the ratio of correct recommendations to the total number of recommendations in a subset of test data.
       
 4. **Using the Machine Learning Model for Position Recommendations Based on Player's Input Data**:
-    - **Creating Function to Collect and Transform player data from keyboard input**: Defined a `get_player_input()` function to collect player input from the keyboard based on the format provided in [EA Sports FC Official Ratings](https://www.ea.com/games/ea-sports-fc/ratings). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
+    - **Creating Function to Collect and Transform Player Data from Keyboard Input**: Defined a `get_player_input()` function to collect player input from the keyboard based on the format provided in [EA Sports FC Official Ratings](https://www.ea.com/games/ea-sports-fc/ratings). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
     - **Generating Position Recommendations for a Player from Keyboard Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on keyboard input.
    
 5. **Output Visualization**:
@@ -55,7 +55,9 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
    - **Rankings and Labels**: Displayed a ranked list of top recommended positions with suitability probabilities as percentages next to the pitch, with rankings also shown directly on the pitch.
 
 6. **Building a Web Interface with Streamlit**:
-
+   - **Creating Function to Collect and Transform Player Data from Web Input**: Defined a `get_player_input_streamlit()` function to collect player input from the web interface using Streamlit widgets (e.g., sliders, number inputs). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
+   - **Generating Position Recommendations for a Player from Web Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on web input.
+   - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
 
 ## Future Enhancements
 
