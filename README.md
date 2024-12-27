@@ -60,9 +60,11 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
      ![Alt Text](./Output_Visualization_Example.png)
 
 6. **Building a Web Interface with Streamlit**:
-   - **Creating Function to Collect and Transform Player Data from Web Input**: Defined a `get_player_input_streamlit()` function to collect player input from the web interface using Streamlit widgets (e.g., sliders, number inputs). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
+   - **Creating Function to Collect and Transform Player Data from Web Input**: Defined a `get_player_input_streamlit()` function to collect player input from the web interface using Streamlit widgets (e.g., `sliders`, `number_input`, `feedback`, `selectbox`, etc.). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
    - **Generating Position Recommendations for a Player from Web Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on web input.
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
+  
+     ![Alt Text](./Website_Example.jpg)
 
 ## Future Enhancements
 
