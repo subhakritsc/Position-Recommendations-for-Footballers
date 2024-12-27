@@ -3,7 +3,7 @@
 
 ## Objective
 
-This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model recommends the best positions for a player, assisting in optimal team selection and player development.
+This project aims to help football players and coaches select the most suitable playing position for a player based on their physical attributes and skills. Using machine learning techniques, the model recommends the positions for a player, assisting in optimal team selection and player development.
 
 
 ## Python Libraries
