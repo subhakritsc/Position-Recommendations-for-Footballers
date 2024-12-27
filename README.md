@@ -41,31 +41,12 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
     - **Generating Position Recommendations for a Player from Keyboard Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on keyboard input.
    
 5. **Output Visualization**:
-   - **Filtering Unfound Positions**: Identified positions not found in the training dataset by counting occurrences of each position from `pos_list`.
-Excluded positions that had zero occurrences from the visual representation, ensuring only relevant positions are visualized.
-    - **Visualizing Position Recommendations**:
-    - Pitch Setup: Used `matplotlib` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
-          - Position Plotting:
-              - Defined player positions using a set of predefined coordinates on the pitch.
-              - Defined a function to interpolate custom colors based on position suitability, where positions with higher suitability are given greener shades, while lower suitability                 is represented with warmer colors like red and orange.
-Color Coding for Position Suitability:
-Top positions (above 0.15 probability) are highlighted in different shades, with brighter colors indicating higher suitability.
-Positions with zero probability are marked in red to indicate their irrelevance.
-A ranking system is applied, where the most suitable positions are given higher ranks and shown with distinct colors and labels.
-Rankings and Labels:
-
-Displayed a ranked list of positions next to the pitch, showing suitability probabilities in percentages for the top recommended positions.
+   - **Filtering Unfound Positions**: Filtered out positions that did not appear in the dataset to exclude them from visualization (e.g., `LS`, `RS`).
+   - **Pitch Setup**: Used `matplotlib.patches` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
+   - **Position Plotting**: Defined player positions and their coordinates on the pitch, representing typical player placements on the field.
+   - **Color Coding for Position Suitability**: Defined a function to interpolate custom colors based on position suitability. Positions with **higher suitability** are assigned **greener shades**, while **lower suitability** is represented with warmer colors like **red** and **orange**.
+   - **Rankings and Labels**: Displayed a ranked list of positions next to the pitch, showing suitability probabilities in percentages for the top recommended positions.
 Each position’s ranking was displayed directly on the pitch, highlighting their suitability based on the model’s output.
-Visualization Enhancements:
-
-Used plt.Circle and plt.text for plotting player positions and displaying their corresponding names and rankings on the pitch.
-The visualization utilized dynamic color mapping, where the color intensity changes based on the probability value of each position.
-The rank list was presented in the sidebar of the plot to provide a clear, concise ranking system for the most suitable player positions.
-Final Presentation:
-
-Ensured the visualization was clear and informative by adjusting the plot aesthetics (font, color, layout) and using ax for custom plot handling.
-Added a border around the pitch and used proper axis adjustments to ensure a professional look.
-Titles and labels were added to make the visualization easier to understand and interpret.
 
 6. **Building a Web Interface with Streamlit**:
 
