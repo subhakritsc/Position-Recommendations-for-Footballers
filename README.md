@@ -46,7 +46,7 @@ The project uses two datasets for model training and testing:
      pip install pandas numpy scikit-learn matplotlib streamlit joblib
    ```
    
-4. **Run the Application in the Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
+4. **Run the Application in the Terminal**: Make sure that `app.py` is in the terminal's directory.
 
    ```
      streamlit run app.py
