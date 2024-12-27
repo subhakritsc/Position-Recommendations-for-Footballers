@@ -8,12 +8,12 @@ This project aims to help football players and coaches select the most suitable 
 
 ## Python Libraries
 
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- Matplotlib
-- Streamlit
+- **[Pandas](https://pandas.pydata.org/)**
+- **[NumPy](https://numpy.org/)**
+- **[Scikit-learn](https://scikit-learn.org/stable/)**
+- **[Joblib](https://joblib.readthedocs.io/en/stable/)**
+- **[Matplotlib](https://matplotlib.org/)**
+- **[Streamlit](https://streamlit.io/)**
 
 
 ## File Lists
