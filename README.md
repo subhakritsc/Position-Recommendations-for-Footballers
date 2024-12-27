@@ -25,7 +25,7 @@ The project uses two datasets for model training and testing:
 2. [EA SPORTS FC 25 DATABASE, RATINGS AND STATS](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats) by [Davis Nyagami](https://www.kaggle.com/nyagami): Used for **Testing** the model and visualization.
 
 
-## Key Steps in the Project
+## Key Steps in the project
 
 1. **Data Cleaning and Feature Extraction**:
     - **Data Filtering**: Excluded goalkeepers and selected FIFA versions 22-24.
