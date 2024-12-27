@@ -87,7 +87,7 @@ The project uses two datasets for model training and testing:
      
      ![Alt Text](./visualization_example.png)
 
-6. **Building the Web Interface with Streamlit**:
+6. **Building the Web Interface using Streamlit**:
    - **Creating Function to Collect and Transform Player Data from Web Input**: Defined a `get_player_input_streamlit()` function to collect player input from the web interface using Streamlit widgets (e.g., `sliders`, `number_input`, `feedback`, `selectbox`, etc.). The function processes the collected input, transforms it into a format compatible with the model's feature requirements.
    - **Generating Position Recommendations for a Player from Web Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on web input.
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
