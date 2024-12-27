@@ -1,7 +1,7 @@
 # Position Recommendations for Footballers Using Python and Scikit-learn
 
 
-**[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations.ipynb)**
+**[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
 
 
 ## Python Libraries Used
