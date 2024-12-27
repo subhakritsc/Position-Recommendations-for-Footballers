@@ -168,15 +168,15 @@ def visualize_results(sorted_selections):
 
     return fig
 
-# ------------------------------ Create website by Streamlit -------------------------------------------
+# ------------------------------ Create website using Streamlit -------------------------------------------
 def get_player_input_streamlit():
     # Set page configuration
     st.set_page_config(layout="wide")
     st.title("Position Recommendations for Footballers ⚽")
     st.markdown("Please provide the player's physical details, skill ratings, and additional attributes below:")
-    st.markdown("---")  # Section separator for aesthetics
+    st.markdown("---")
     
-    # First Section: Basic details, Pace, Shooting, Passing
+    # First Section: Basic details, Pace, Shooting, Passing, Dribbling
     col1, col_space, col2, col_space, col3, col_space, col4 = st.columns([1, 1.4/3, 1, 1.4/3, 1, 1.4/3, 1])  # Spaced columns
     
     with col1:
@@ -229,8 +229,8 @@ def get_player_input_streamlit():
         skill_dribbling = st.slider("Dribbling", 1, 99, value=50)
         mentality_composure = st.slider("Composure", 1, 99, value=50)
     
-    # Second Section: Defending, Physical, Button
-    st.markdown("---")  # Section separator for aesthetics
+    # Second Section: Defending, Physical, Position Recommendations
+    st.markdown("---") 
     col1, col_space, col2, col_space, col3 = st.columns([1, 0.2, 1, 0.2, 3])  # Spaced columns
     
     with col1:
