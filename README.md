@@ -1,4 +1,4 @@
-# Position Recommendations for Footballers Using Python and Scikit-learn
+# Position Recommendations for Footballers Using Python
 
 
 ## Objective
