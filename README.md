@@ -48,7 +48,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
     - **Generating Position Recommendations for a Player from Keyboard Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on keyboard input.
    
 5. **Output Visualization**:
-   - **Filtering Unfound Positions**: Filtered out positions that did not appear in the dataset to exclude them from visualization (e.g., `LS`, `RS`, etc.).
+   - **Filtering Unfound Positions**: Filtered out positions that did not appear in the dataset to exclude them from visualization (e.g., `LS`, `RDM`, `LAM`, `RCB`, etc.).
    - **Pitch Setup**: Used `matplotlib.patches` to plot a football pitch with a rectangular field, penalty boxes, and a center circle.
    - **Position Plotting**: Defined player positions and their coordinates on the pitch, representing typical player placements on the field.
    - **Color Coding for Position Suitability**: Used a custom algorithm to assign colors based on position suitability to create a meaningful visualization. Positions with higher suitability are assigned greener shades, while lower suitability is represented with warmer colors like red and orange, ensuring that the color scheme reflects the suitability of positions effectively.
