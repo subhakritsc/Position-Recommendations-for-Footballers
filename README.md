@@ -28,7 +28,7 @@ The project uses two datasets for model training and testing:
 ## File Lists
 
 - **[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
-- **[Streamlit App](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+- **[Streamlit App](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)** **(app.py)**
 
 
 ## Steps to Run the Streamlit App
