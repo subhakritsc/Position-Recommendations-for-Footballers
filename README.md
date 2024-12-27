@@ -3,7 +3,9 @@
 
 **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations.ipynb)**
 
+
 ## Python Libraries Used
+
 - Pandas
 - NumPy
 - Scikit-learn
@@ -65,6 +67,7 @@ The project uses two datasets for model training and testing:
   
      ![Alt Text](./web_example.jpg)
 
+
 ## Future Enhancements
 
 - **Simplified Input Options**: Add a fast entry option for casual users to make the process quicker and easier.
@@ -76,5 +79,3 @@ The project uses two datasets for model training and testing:
 - [Stefano Leone](https://www.kaggle.com/stefanoleone992) for EA Sports FC 24 Complete Player Dataset
 - [Davis Nyagami](https://www.kaggle.com/nyagami) for EA SPORTS FC 25 DATABASE, RATINGS AND STATS
 - [EA Sports FC Official Ratings](https://www.ea.com/games/ea-sports-fc/ratings) for the input format and player ratings structure.
-
-
