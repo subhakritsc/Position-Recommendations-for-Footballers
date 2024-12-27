@@ -19,13 +19,14 @@ This project aims to help football players and coaches select the most suitable 
 
 1. **[My Project Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
 2. **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+
 To run app.py
-   - [Load the model](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)
-   - Modify app.py
+- [Load the model](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)
+- Modify app.py
      ```
         clf_forest = joblib.load('YOUR PATH OF THE MODEL')
      ```
-   - Run this on the terminal
+- Run this on the terminal
      ```bash
         pip install pandas numpy scikit-learn matplotlib streamlit joblib
         streamlit run app.py
