@@ -53,7 +53,7 @@ The project uses two datasets for model training and testing:
    ```
 
 
-## Key Steps in the project
+## Key Steps in the Project
 
 1. **Data Cleaning and Feature Extraction**:
     - **Data Filtering**: Excluded goalkeepers and selected FIFA version 22-24.
