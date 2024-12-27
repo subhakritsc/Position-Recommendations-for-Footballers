@@ -57,9 +57,6 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
 6. **Building a Web Interface with Streamlit**:
 
 
-## Visual Examples
-add Image Here
-
 ## Future Enhancements
 
 - **Simplified Input Options**: Add a fast entry option for casual users to make the process quicker and easier.
