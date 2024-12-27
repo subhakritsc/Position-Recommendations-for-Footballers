@@ -3,6 +3,13 @@
 
 **[My Project Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Selection%20Test.ipynb)**
 
+## Python Libraries Used
+- pandas
+- numpy
+- scikit-learn
+- joblib
+- matplotlib
+- streamlit
 
 ## Objective
 
