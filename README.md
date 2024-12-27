@@ -64,7 +64,7 @@ Feature Importance Extraction: Averaged feature importances from all trees to id
    - **Generating Position Recommendations for a Player from Web Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on web input.
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
   
-     ![Alt Text](./Website_Example.jng)
+     ![Alt Text](./Website_Example.jpg)
 
 ## Future Enhancements
 
