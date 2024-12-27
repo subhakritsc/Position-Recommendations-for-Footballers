@@ -39,7 +39,7 @@ The project uses two datasets for model training and testing:
     - **Model Training**: Trained a `RandomForestClassifier` with 100 estimators, using `MultiOutputClassifier` to handle multilabel classification.
 
 3. **Evaluating the Machine Learning Model**:
-    - **Creating Function to Calculate Position Suitable Percentages**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate suitable percentages for each position based on player features, sorts the positions by their suitability, and returns a sorted list of positions along with their corresponding percentages.
+    - **Creating Function to Calculate Suitable Percentage for Each Position**: Defined a `select_and_sort()` function using the model trained in Step 2 to recommend player positions. The function uses the model to calculate the suitable percentage for each position based on player features, sorts the positions by their suitability, and returns a sorted list of positions along with their corresponding percentage.
     - **Model Accuracy Evaluation**: Evaluated the model's performance by comparing the top recommended position with the player’s actual positions. A recommendation was considered correct if the top recommended position matched any of the player’s actual positions. The accuracy was calculated as the ratio of correct recommendations to the total number of recommendations in a subset of test data.
       ```
         Accuracy (Top recommended position in actual positions, subset of 200): 0.925
