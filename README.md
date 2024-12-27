@@ -40,13 +40,13 @@ The project uses two datasets for model training and testing:
       clf_forest = joblib.load('YOUR PATH OF THE MODEL')
    ```
    
-3. **Install All Required Libraries on Terminal**
+3. **Install All Required Libraries in the Terminal**
 
    ```
      pip install pandas numpy scikit-learn matplotlib streamlit joblib
    ```
    
-4. **Run the Application on Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
+4. **Run the Application in the Terminal**: Make sure that `app.py` is in the directory from which you're running the terminal. 
 
    ```
      streamlit run app.py
