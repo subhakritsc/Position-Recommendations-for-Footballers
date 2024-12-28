@@ -168,8 +168,9 @@ def visualize_results(sorted_selections):
 
     return fig
 
-# ----------------------------- FC25 Dataset -------------------------------------------------------------
+# ------------------------------- FC25 Dataset -----------------------------------------------------------
 
+# fc25_df = pd.read_csv('YOUR PATH OF FC25 DATASET')
 fc25_df = pd.read_csv('/Users/subhakritsc/Downloads/Male Players Data.csv')
 fc25_columns = [
     'Name', 'Height', 'Weight','Preferred foot', 'Weak foot', 'Skill moves',
@@ -292,7 +293,7 @@ def get_player_input_from_df(df, index):
 # ------------------------------ Create website using Streamlit -------------------------------------------
 st.set_page_config(layout="wide")
 st.title("Position Recommendations for FC25 Players")
-# st.markdown("---")
+st.markdown("---")
 col1, col_space, col2= st.columns([1, 0.2, 3])  # Spaced columns
 
 with col1:
