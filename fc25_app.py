@@ -180,7 +180,7 @@ fc25_columns = [
     'Agility','Balance', 'Reactions', 'Ball Control', 'Dribbling', 'Composure',
     'Interceptions', 'Heading Accuracy', 'Def Awareness', 'Standing Tackle', 'Sliding Tackle',
     'Jumping', 'Stamina', 'Strength', 'Aggression',
-    'Position',  'Alternative positions', 'Team']
+    'Position',  'Alternative positions', 'Team', 'Nation']
 
 fc25_df = fc25_df.loc[fc25_df['Position'] != 'GK', fc25_columns]
 fc25_df.reset_index(drop=True, inplace=True)
@@ -333,11 +333,13 @@ with col2:
 
     player_name = fc25_df.loc[index, 'Name']
     actual_positions = fc25_df.loc[index, 'Positions']
+    team = fc25_df.loc[index, 'Team']
+    nation = fc25_df.loc[index, 'Nation']
     
     player = get_player_input_from_df(fc25_df, index)
     sorted_selections = select_and_sort(clf_forest, player, feature_columns, pos_list)
     fig = visualize_results(sorted_selections)
     
     st.markdown(f"Player Name: **{player_name}**")
-    st.markdown(f"Actual positions: **{', '.join(actual_positions)}**")
+    st.markdown(f"Actual positions: **{', '.join(actual_positions)}**  |  Current Team: **{team}**  |  Nation: **{nation}**")
     st.pyplot(fig)
