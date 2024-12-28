@@ -94,7 +94,7 @@ The project uses two datasets for model training and testing:
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
   
      ![Alt Text](./web_example.jpg)
-     ___
+     __
      ![Alt Text](./web_for_fc25_example.png)
 
 
