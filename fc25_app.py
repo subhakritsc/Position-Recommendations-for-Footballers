@@ -191,7 +191,6 @@ fc25_df['Positions'] = fc25_df.apply(lambda row: [row['Position']] + (row['Alter
 fc25_df['Height'] = pd.to_numeric(fc25_df['Height'], errors='coerce')
 fc25_df['Weight'] = pd.to_numeric(fc25_df['Weight'], errors='coerce')
 
-
 def get_player_input_from_df(df, index):
     row = df.loc[index]
     print(f"Enter the details for player: {row['Name']}")
@@ -327,7 +326,6 @@ with col1:
         st.dataframe(filtered_df_team, hide_index=True, width =500, height=200)
     else:
         st.markdown('Player Not Found')   
-    
     
 with col2:
     index = st.number_input("**Enter Player Index**", min_value=0, max_value=len(fc25_df.index)-1, step=1, value=0)
