@@ -341,5 +341,5 @@ with col2:
     fig = visualize_results(sorted_selections)
     
     st.markdown(f"Player Name: **{player_name}**")
-    st.markdown(f"Actual positions: **{', '.join(actual_positions)}**  |  Current Team: **{team}**  |  Nation: **{nation}**")
+    st.markdown(f"Actual positions: **{', '.join(actual_positions)}**  |  Team: **{team}**  |  Nation: **{nation}**")
     st.pyplot(fig)
