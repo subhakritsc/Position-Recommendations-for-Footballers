@@ -311,13 +311,13 @@ with col1:
     else:
         st.markdown('Player Not Found')
  
-    search_team = st.text_input("**Search Player Index by Team**", value="")
+    search_team = st.text_input("**Search Player Index by Team or Nation**", value="")
     filtered_teams = [
-        {"Index": idx, "Name": fc25_df.loc[idx, 'Name']}
-        for idx, team in fc25_df['Team'].items()
-        if search_team.lower() in team.lower()
+        {"Index": idx, "Name": row['Name']}
+        for idx, row in fc25_df.iterrows()
+        if search_team.lower() in row['Team'].lower() or search_team.lower() in row['Nation'].lower()
     ]
-
+    
     if filtered_teams:
         # Convert to DataFrame for better display control
         filtered_df_team = pd.DataFrame(filtered_teams)
