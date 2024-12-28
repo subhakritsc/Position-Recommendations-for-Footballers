@@ -292,7 +292,7 @@ def get_player_input_from_df(df, index):
 # ------------------------------ Create website using Streamlit -------------------------------------------
 st.set_page_config(layout="wide")
 st.title("Position Recommendations for FC25 Players")
-st.markdown("---")
+# st.markdown("---")
 col1, col_space, col2= st.columns([1, 0.2, 3])  # Spaced columns
 
 with col1:
