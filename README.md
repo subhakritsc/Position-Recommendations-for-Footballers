@@ -28,8 +28,8 @@ The project uses two datasets for model training and testing:
 ## File Lists
 
 - **[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
-- **[App (app.py)](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
-- **[App for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)**
+- **[App: Position Recommendations for Footballers ⚽ (app.py)](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+- **[App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)**
 
 
 ## Steps to Run the Streamlit App
