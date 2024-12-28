@@ -283,7 +283,6 @@ def get_player_input_from_df(df, index):
     # Normalize the additional features
     normalized_additional_features = [offensive_defensive_ratio, attacking_contribution, defensive_contribution]
 
-
     # Convert 'Preferred foot' to numerical value
     preferred_foot = 0 if preferred_foot.lower() == 'right' else 1
 
