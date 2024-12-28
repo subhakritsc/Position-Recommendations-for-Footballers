@@ -28,8 +28,8 @@ The project uses two datasets for model training and testing:
 ## File Lists
 
 - **[Jupyter Notebook](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/Football%20Position%20Recommendations%20Final.ipynb)**
-- **[App: Position Recommendations for Footballers ⚽ (app.py)](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
-- **[App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)**
+- **[Web App: Position Recommendations for Footballers (app.py)](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**
+- **[Web App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)**
 
 
 ## Steps to Run the Streamlit App
@@ -94,6 +94,8 @@ The project uses two datasets for model training and testing:
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
   
      ![Alt Text](./web_example.jpg)
+
+     ![Alt Text](./web_for_fc25_example.png)
 
 
 ## Future Enhancements
