@@ -32,12 +32,12 @@ The project uses two datasets for model training and testing:
 
   ![Alt Text](./web_example.jpg)
 
-- **[Web App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)**
+- **[Web App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)** (Used for Testing Machine Learning Model Recommendations with new dataset)
 
   ![Alt Text](./web_for_fc25_example.png)
 
 
-## Steps to Run the Streamlit App
+## Steps to Run the Web App (app.py)
 
 1. **Download My Trained Model**: **[Load the Model Here](https://drive.google.com/file/d/15QfmcUjYbMU2zShPIop20aujgGytfhuy/view?usp=sharing)**
 2. **Download and Modify** **[app.py](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/app.py)**: Update the path to the model file in `app.py`
