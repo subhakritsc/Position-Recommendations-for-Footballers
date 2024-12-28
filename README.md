@@ -32,7 +32,7 @@ The project uses two datasets for model training and testing:
 
   ![Alt Text](./web_example.jpg)
 
-- **[Web App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)** (For Testing Machine Learning Model Recommendations with new dataset)
+- **[Web App: Position Recommendations for FC25 Players](https://github.com/subhakritsc/Position-Recommendations-for-Footballers/blob/main/fc25_app.py)** (Used for Testing Machine Learning Model Recommendations with new dataset)
 
   ![Alt Text](./web_for_fc25_example.png)
 
