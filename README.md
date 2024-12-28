@@ -93,9 +93,10 @@ The project uses two datasets for model training and testing:
    - **Generating Position Recommendations for a Player from Web Input**: Used the `select_and_sort()` function (defined in Step 3) to recommend player positions based on web input.
    - **Output Visualization on Web Interface**: Used the visualizations from Step 5, including the football pitch plot and color-coded position suitability, to display the results on the Streamlit interface.
   
-     ![Alt Text](./web_example.jpg)
-     __
-     ![Alt Text](./web_for_fc25_example.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="./web_example.jpg" alt="Alt Text" style="width: 45%;">
+    <img src="./web_for_fc25_example.png" alt="Alt Text" style="width: 45%;">
+</div>
 
 
 ## Future Enhancements
